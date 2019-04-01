@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+h1{
+    color: black;
+    background-color: white;
+    font-style: bold;
+    text-align: center;
+    margin: 0 ;
+}
+
+a:link{
+    text-decoration: none; 
+    text-align: justify ;
+    vertical-align: middle;
+}
+    a:visited{
+    text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+        color-adjust: 20%;
+        color: red;
+    }
