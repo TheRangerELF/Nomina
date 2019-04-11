@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="css/formulario.css">
+    </head>
+    <body>
+        <form action="formpage.php" target="ifp" method="POST">
+            <div>
+                <fieldset>
+                <label>Nombre(s)</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre(s)">
+                <label>Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellidos"><br>
+                <label>Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="fNacimiento" name="fNacimiento"><br>
+                <label>Sexo</label><br>
+                    <label>Masculino</label><input class="checkbox" type="radio" name="sexo" value="m">
+                    <label>Femenino</label><input class="checkbox" type="radio" name="sexo" value="f"><br>
+                <label>Domicilio</label>
+                    <input type="text" class="form-control" id="domicilio" name="domicilio" placeholder="Colonia/Calle/No.">
+                <label>Curp</label>
+                    <input type="text" class="form-control" id="curp" name="curp" placeholder="Curp(18 digitos)"><br>
+                <label>Estado Civil</label><br>
+                    <select>
+                        <option value="soltero">Soltero</option>
+                        <option value="casado">Casado</option>
+                        <option value="uLibre">Union Libre</option>
+                    </select><br>
+                <label>No. Cuenta</label>
+                    <input type="text" class="form-control" id="cuenta" name="cuenta" placeholder="Numero de cuenta"><br>
+                <label>Area</label><br>
+                    <select>
+                        <option selected>Elige Una</option>
+                        <option value="finanzas">Finanzas</option>
+                        <option value="rHumanos">Recursos Humanos</option>
+                        <option value="produccion">Produccion</option>
+                        <option value="Ventas">Ventas</option>
+                        <option value="Sistemas">Sistemas</option>
+                    </select><br>
+                <label>Puestos</label><br>
+                    <select>
+                        <option selected>Elige Una</option>
+                        <option value="directivo">Directivos</option>
+                        <option value="jArea">Jefe de area</option>
+                        <option value="administrativo">Administrativo</option>
+                        <option value="eGeneral">Empleado general</option>
+                    </select><br>
+                <label>Tipo de contrato</label><br>
+                    <select>
+                        <option selected>Elige Una</option>
+                        <option value="honorarios">Honorarios</option>
+                        <option value="base">Base</option>
+                        <option value="interinos">Interinos</option>
+                    </select><br>
+                <label>tipo de Nomina</label><br>
+                    <select>
+                        <option selected>Elige Una</option>
+                        <option value="mensual">Mensual</option>
+                        <option value="quincenal">Quincenal</option>
+                        <option value="semanal">Semanal</option>
+                    </select><br>
+                <label>Dias de Descanso</label><br>
+                    <select>
+                        <option value="1">1 Dia</option>
+                        <option value="2">2 Dias</option>
+                        <option value="3">3 Dias</option>
+                        <option value="4">4 Dias</option>
+                    </select><br>
+                <label>Sueldo Diario</label><br>
+                    <input type="text" class="form-control" id="sueldo" name="sueldo" placeholder="Sueldo por dia">
+                    <button type="submit">Guardar</button>
+                    <button href="">Cancelar</button>
+                </fieldset>
+            </div>
+        </form>
+    </body>
+</html>

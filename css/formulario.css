@@ -1,0 +1,64 @@
+body{background-color: grey;}
+label{
+    text-align: left;
+    text-decoration-color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    font-size: 20px;
+}
+#apellidos ,#nombre, #fNacimiento, #domicilio, #curp, #cuenta, #sueldo{
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+input.checkbox{
+    width:24px;
+    height:24px;
+    position:relative;
+    top:6px
+}
+select{
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width:25%;
+    border: 1px solid #ccc;
+}
+Button {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #255687), color-stop(1, #193e63));
+	background:-moz-linear-gradient(top, #255687 5%, #193e63 100%);
+	background:-webkit-linear-gradient(top, #255687 5%, #193e63 100%);
+	background:-o-linear-gradient(top, #255687 5%, #193e63 100%);
+	background:-ms-linear-gradient(top, #255687 5%, #193e63 100%);
+	background:linear-gradient(to bottom, #255687 5%, #193e63 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#255687', endColorstr='#193e63',GradientType=0);
+	background-color:#255687;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:9px 20px;
+	text-decoration:none;
+}
+Button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #193e63), color-stop(1, #255687));
+	background:-moz-linear-gradient(top, #193e63 5%, #255687 100%);
+	background:-webkit-linear-gradient(top, #193e63 5%, #255687 100%);
+	background:-o-linear-gradient(top, #193e63 5%, #255687 100%);
+	background:-ms-linear-gradient(top, #193e63 5%, #255687 100%);
+	background:linear-gradient(to bottom, #193e63 5%, #255687 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#193e63', endColorstr='#255687',GradientType=0);
+	background-color:#193e63;
+}
+Button:active {
+	position:relative;
+	top:1px;
+}

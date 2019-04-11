@@ -57,14 +57,14 @@ div.content iframe.iflcss{
 
 }
 div.divp{
-    background-color: black;
-    margin-left: 20%;
-    padding: 1px 1px;
-    position: fixed;
-    text-align: center;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
+  margin-left: 20%;
+  margin-top: .1%;
+  padding: 1px 1px;
+  position: fixed;
+  overflow: hidden;
+  height: 90%;
+  width: 80%;
+
 
 }
 div.divp iframe.ifpcss{
